@@ -1,0 +1,106 @@
+body, h1, h2, p {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    
+}
+
+.main {
+    background-image: url("images/background-1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0px 250px 0px;
+    margin: auto;
+    
+}
+#hed1 {
+    background: #fff;
+    width: 280px; 
+    margin:  auto ;
+}  
+#par1{
+    background: #ccc;
+    width: 500px;
+    padding: 5px 3px;
+    margin: 10px auto;
+}
+
+.hero {
+    background-color:  #E3F3E3 ;
+    color: #1F1F1F;  
+}
+.hero h2 {
+    padding: 20px 0px;
+}
+
+#hero-sec{
+    display: flex;    
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#hero-sec h2, p {
+    padding: 10px;
+}
+.cnt-img{
+    width: 150px;
+    height: 150px;
+    border:4px solid #fff;
+    border-radius: 50%;
+}
+
+.footer{
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+    background:#94C7B4;
+    color: #1F1F1F;
+    border-bottom: 4px solid #AB4967;
+}
+.avtr{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    /* padding: 0 10px 0 0; */
+    
+}
+
+.gde-info{
+    margin: 0px 0px 0px 10px;
+    padding:40px 0px;
+}
+
+ /* .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+    background-image: url("images/background-1.jpg");
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+}
+#hed1{
+    margin:  200px auto 20px;
+   
+}
+#par1{
+    
+    padding: 4px;
+}
+
+.main .content{
+    
+    color: #fff;
+    background-color: bisque;
+    width: 400px;
+    text-align: center;
+    margin: 0px;
+} */
